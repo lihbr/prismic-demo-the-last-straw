@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>The Last Straw</title>
+
+		<!-- Press Start 2P font -->
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+		<!-- NES.css (https://nostalgic-css.github.io/NES.css) -->
+		<link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />
+
+		<!-- Some reset and utility class -->
+		<style>
+			/* apply default font and colors */
+			html, body, pre, code, kbd, samp {
+				font-family: "Press Start 2P", "Comic Sans MS", script;
+				color: #3b3b3b;
+				background: #f1deab;
+			}
+
+			/* fix color on nes */
+			.nes-container.with-title>.title, .nes-table {
+				background: #f1deab;
+			}
+
+			/* some reset */
+			ul {
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+			}
+
+			a {
+				color: inherit;
+			}
+
+			a:hover {
+				text-decoration: none;
+			}
+
+			/* layout utilities */
+			.container {
+				width: min(60ch, 100vw - 2rem);
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.block {
+				margin-top: 40px;
+				margin-bottom: 40px;
+			}
+
+			.stack > * ~ * {
+				margin-top: 2rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="app"></div>
+		<script type="module" src="/src/main.js"></script>
+	</body>
+</html>
