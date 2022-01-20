@@ -1,0 +1,83 @@
+{
+  "id": "recipes",
+  "label": "Recipes",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "title": {
+        "config": {
+          "label": "Title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading1"
+        },
+        "type": "StructuredText"
+      },
+      "uid": {
+        "config": {
+          "label": "UID",
+          "placeholder": ""
+        },
+        "type": "UID"
+      },
+      "description": {
+        "config": {
+          "label": "Description",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,list-item,o-list-item"
+        },
+        "type": "StructuredText"
+      },
+      "thumbnail": {
+        "config": {
+          "label": "Thumbnail",
+          "constraint": {
+            "width": 180,
+            "height": 180
+          },
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "duration": {
+        "config": {
+          "label": "Duration",
+          "placeholder": ""
+        },
+        "type": "Number"
+      },
+      "difficulty": {
+        "config": {
+          "label": "Difficulty",
+          "placeholder": "",
+          "options": [
+            "Beginner",
+            "Intermediate",
+            "Advanced",
+            "Ultra Pain"
+          ],
+          "default_value": "Beginner"
+        },
+        "type": "Select"
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "banner_image": {
+              "type": "SharedSlice"
+            },
+            "recipe_step": {
+              "type": "SharedSlice"
+            },
+            "table_list": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

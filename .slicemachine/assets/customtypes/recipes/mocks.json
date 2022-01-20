@@ -1,0 +1,32 @@
+{
+  "id": "63da9900-be33-409e-86cb-14475683ee87",
+  "uid": "aut-quasi-aut",
+  "type": "recipes",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Productize interactive channels",
+        "spans": []
+      }
+    ],
+    "description": [
+      {
+        "type": "paragraph",
+        "text": "Non officia laboris enim voluptate labore esse ullamco magna sint occaecat sunt excepteur.",
+        "spans": []
+      }
+    ],
+    "thumbnail": {
+      "dimensions": {
+        "width": 180,
+        "height": 180
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=180&h=180&fit=crop"
+    },
+    "duration": 8355,
+    "difficulty": "Beginner"
+  }
+}

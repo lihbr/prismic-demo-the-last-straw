@@ -1,0 +1,6 @@
+{
+	"libraries": ["@/slices"],
+	"apiEndpoint": "https://the-last-straw-2.cdn.prismic.io/api/v2",
+	"localSliceSimulatorURL": "http://localhost:3000/slice-simulator",
+	"_latest": "0.1.0"
+}

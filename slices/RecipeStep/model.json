@@ -1,0 +1,34 @@
+{
+  "id": "recipe_step",
+  "type": "SharedSlice",
+  "name": "RecipeStep",
+  "description": "RecipeStep",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "RecipeStep",
+      "primary": {
+        "duration": {
+          "config": {
+            "label": "Duration",
+            "placeholder": ""
+          },
+          "type": "Number"
+        },
+        "task": {
+          "config": {
+            "label": "Task",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

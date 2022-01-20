@@ -1,0 +1,116 @@
+{
+  "_cts": {
+    "home": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    },
+    "recipes": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    }
+  },
+  "slices": {
+    "BannerImage": {
+      "0": {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "banner_image",
+        "items": [],
+        "primary": {
+          "image": {
+            "dimensions": {
+              "width": 1200,
+              "height": 400
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da?w=1200&h=400&fit=crop"
+          }
+        }
+      },
+      "default-slice": {
+        "primary": {}
+      }
+    },
+    "TableList": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "table_list",
+        "items": [
+          {
+            "key": "matrix mission-critical partnerships",
+            "value": "monetize vertical e-tailers"
+          },
+          {
+            "key": "empower proactive vortals",
+            "value": "streamline vertical e-commerce"
+          },
+          {
+            "key": "architect out-of-the-box action-items",
+            "value": "incentivize strategic applications"
+          },
+          {
+            "key": "visualize dot-com schemas",
+            "value": "morph world-class e-markets"
+          },
+          {
+            "key": "envisioneer 24/7 channels",
+            "value": "enhance bleeding-edge communities"
+          },
+          {
+            "key": "transition strategic eyeballs",
+            "value": "syndicate turn-key synergies"
+          }
+        ],
+        "primary": {
+          "title": [
+            {
+              "type": "heading3",
+              "text": "Syndicate strategic portals",
+              "spans": []
+            }
+          ]
+        }
+      }
+    ],
+    "RecipeStep": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "recipe_step",
+        "items": [],
+        "primary": {
+          "duration": 1725,
+          "task": [
+            {
+              "type": "paragraph",
+              "text": "Nisi excepteur et ad duis reprehenderit velit minim.",
+              "spans": []
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

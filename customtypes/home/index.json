@@ -1,0 +1,28 @@
+{
+	"id": "home",
+	"label": "Home",
+	"repeatable": false,
+	"status": true,
+	"json": {
+		"Main": {
+			"title": {
+				"config": {
+					"label": "Title",
+					"placeholder": "",
+					"allowTargetBlank": true,
+					"single": "heading1"
+				},
+				"type": "StructuredText"
+			},
+			"description": {
+				"config": {
+					"label": "Description",
+					"placeholder": "",
+					"allowTargetBlank": true,
+					"multi": "paragraph,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,heading2"
+				},
+				"type": "StructuredText"
+			}
+		}
+	}
+}

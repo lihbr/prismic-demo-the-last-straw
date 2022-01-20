@@ -1,0 +1,236 @@
+{
+  "slices": {
+    "components": {
+      "banner_image": {
+        "library": "slices",
+        "id": "banner_image",
+        "name": "BannerImage",
+        "description": "BannerImage",
+        "model": {
+          "id": "banner_image",
+          "type": "SharedSlice",
+          "name": "BannerImage",
+          "description": "BannerImage",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "BannerImage",
+              "primary": {
+                "image": {
+                  "config": {
+                    "label": "Image",
+                    "constraint": {
+                      "width": 1200,
+                      "height": 400
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "banner_image",
+            "items": [],
+            "primary": {
+              "image": {
+                "dimensions": {
+                  "width": 1200,
+                  "height": 400
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=1200&h=400&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "D:\\Libraries\\Desktop\\prismic\\demo\\the-last-straw\\.slicemachine\\assets\\slices\\BannerImage\\default-slice\\preview.png",
+            "width": 800,
+            "height": 256
+          }
+        }
+      },
+      "recipe_step": {
+        "library": "slices",
+        "id": "recipe_step",
+        "name": "RecipeStep",
+        "description": "RecipeStep",
+        "model": {
+          "id": "recipe_step",
+          "type": "SharedSlice",
+          "name": "RecipeStep",
+          "description": "RecipeStep",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "RecipeStep",
+              "primary": {
+                "duration": {
+                  "config": {
+                    "label": "Duration",
+                    "placeholder": ""
+                  },
+                  "type": "Number"
+                },
+                "task": {
+                  "config": {
+                    "label": "Task",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "recipe_step",
+            "items": [],
+            "primary": {
+              "duration": 1998,
+              "task": [
+                {
+                  "type": "paragraph",
+                  "text": "Non minim Lorem ea cillum. Cupidatat amet ea esse consectetur sint cupidatat anim. Excepteur elit qui non culpa sunt nisi laborum.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "D:\\Libraries\\Desktop\\prismic\\demo\\the-last-straw\\.slicemachine\\assets\\slices\\RecipeStep\\default-slice\\preview.png",
+            "width": 800,
+            "height": 168
+          }
+        }
+      },
+      "table_list": {
+        "library": "slices",
+        "id": "table_list",
+        "name": "TableList",
+        "description": "TableList",
+        "model": {
+          "id": "table_list",
+          "type": "SharedSlice",
+          "name": "TableList",
+          "description": "TableList",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TableList",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading3"
+                  }
+                }
+              },
+              "items": {
+                "key": {
+                  "config": {
+                    "label": "Key",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "value": {
+                  "config": {
+                    "label": "Value",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "table_list",
+            "items": [
+              {
+                "key": "incentivize collaborative e-business",
+                "value": "revolutionize sexy bandwidth"
+              },
+              {
+                "key": "disintermediate compelling bandwidth",
+                "value": "embrace out-of-the-box markets"
+              },
+              {
+                "key": "target dynamic portals",
+                "value": "revolutionize distributed e-commerce"
+              },
+              {
+                "key": "disintermediate front-end methodologies",
+                "value": "synthesize cutting-edge web services"
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading3",
+                  "text": "Grow compelling networks",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "D:\\Libraries\\Desktop\\prismic\\demo\\the-last-straw\\.slicemachine\\assets\\slices\\TableList\\default-slice\\preview.png",
+            "width": 800,
+            "height": 344
+          }
+        }
+      }
+    }
+  }
+}

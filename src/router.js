@@ -17,6 +17,14 @@ const router = createRouter({
 					/* webpackChunkName: "recipes--uid" */ "./pages/recipes/_uid.vue"
 				),
 		},
+		{
+			path: "/slice-simulator",
+			name: "SliceSimulator",
+			component: () =>
+				import(
+					/* webpackChunkName: "slice-simulator" */ "./pages/slice-simulator.vue"
+				),
+		},
 	],
 });
 

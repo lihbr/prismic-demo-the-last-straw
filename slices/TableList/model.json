@@ -1,0 +1,42 @@
+{
+  "id": "table_list",
+  "type": "SharedSlice",
+  "name": "TableList",
+  "description": "TableList",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TableList",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          }
+        }
+      },
+      "items": {
+        "key": {
+          "config": {
+            "label": "Key",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "value": {
+          "config": {
+            "label": "Value",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    }
+  ]
+}

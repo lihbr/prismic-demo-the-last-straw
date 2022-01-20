@@ -1,0 +1,29 @@
+{
+  "id": "banner_image",
+  "type": "SharedSlice",
+  "name": "BannerImage",
+  "description": "BannerImage",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "BannerImage",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1200,
+              "height": 400
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

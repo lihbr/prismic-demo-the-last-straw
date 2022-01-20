@@ -1,0 +1,34 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "table_list",
+    "items": [
+      {
+        "key": "incentivize collaborative e-business",
+        "value": "revolutionize sexy bandwidth"
+      },
+      {
+        "key": "disintermediate compelling bandwidth",
+        "value": "embrace out-of-the-box markets"
+      },
+      {
+        "key": "target dynamic portals",
+        "value": "revolutionize distributed e-commerce"
+      },
+      {
+        "key": "disintermediate front-end methodologies",
+        "value": "synthesize cutting-edge web services"
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading3",
+          "text": "Grow compelling networks",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

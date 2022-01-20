@@ -1,0 +1,21 @@
+{
+  "id": "c9256a6e-ffb0-4bf9-b6b0-4f7f18791449",
+  "uid": "voluptatibus-nam-temporibus",
+  "type": "home",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Recontextualize out-of-the-box content",
+        "spans": []
+      }
+    ],
+    "description": [
+      {
+        "type": "paragraph",
+        "text": "Est tempor ut est mollit. Commodo excepteur laboris culpa in mollit duis. Voluptate cillum magna laboris esse consectetur aliquip irure voluptate veniam culpa consequat nostrud ut esse commodo.",
+        "spans": []
+      }
+    ]
+  }
+}
