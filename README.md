@@ -1,6 +1,6 @@
 # prismic-demo-the-last-straw
 
-A demo website built during Frontend Stampede streams on [Alex Trost Twitch's channel](https://twitch.tv/trostcodes).
+A demo website built during Frontend Stampede streams on [Alex Trost's Twitch channel](https://twitch.tv/trostcodes).
 
 - [✨ &nbsp;Try Prismic](https://prismic.io/pricing?utm_campaign=devexp&utm_source=github&utm_medium=demotwitch)
 - [📚 &nbsp;Prismic Vue documentation](https://prismic.io/docs/technologies/vuejs?utm_campaign=devexp&utm_source=github&utm_medium=demotwitch)
